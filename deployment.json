@@ -1,0 +1,25 @@
+{
+  "network": {
+    "chainId": 61999,
+    "rpc": "https://studio.genlayer.com/api"
+  },
+  "address": "0x42A506942589BCEf7C59e98A791cB610f9fEc244",
+  "owner": "0x9D6c455550bBD70ad181b6E4423281F08ffD060B",
+  "sourceSha256": "13da0b536538fa112a8eacac66e5b18a0d759052475e1cc89358366fc883a8e6",
+  "protocol": "quotaspring-1",
+  "verifiedDate": "2026-10-29",
+  "terminalState": "CLAIMED",
+  "recordId": "credits-demo",
+  "explorer": "https://explorer-studio.genlayer.com/address/0x42A506942589BCEf7C59e98A791cB610f9fEc244",
+  "transactions": {
+    "deploy": "0x021f3d2fa1e722e93f46996ba92d39fa860ffcbd0e20c8432fa3206101462e5c",
+    "open": "0xd7d846193708edd4323d90632414bdb3f0240ce96307363783f4fe4caa92489b",
+    "declare_0": "0x98f935f4c580c916869b875b49c8ec30ce1dc1eff0f4006418993a6622795b9c",
+    "declare_1": "0xe4db0c899e1248e2a2e2b372b77de528cad048b189b1e90fdb35f4ca30ac71f9",
+    "declare_2": "0xbaac25c601661fa4b6d91b1e55a2023dd2d84180c981f5196d671ae225c37052",
+    "allocate": "0x4b1fa964d96af38e5b0b08f57c805279e07031d7ee430e78d4d1f34e61cd1752",
+    "claim_0": "0xa5ac43095d6b4b7042677b9abae3f5e58f7f800b136e16f3f34dec4ef551fee5",
+    "claim_1": "0xf16f02c237e7b50c7bca49e7927c3371f8eeddae387911d428329f837d24dcb2",
+    "claim_2": "0xa37c4c5472490aee5cae3a8f2f907c183611fd77653e5058073df8a595926a07"
+  }
+}

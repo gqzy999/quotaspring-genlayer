@@ -1,0 +1,109 @@
+{
+  "ctor": {
+    "params": [],
+    "kwparams": {}
+  },
+  "methods": {
+    "allocate": {
+      "params": [
+        [
+          "owner",
+          "string"
+        ],
+        [
+          "pool_id",
+          "string"
+        ]
+      ],
+      "kwparams": {},
+      "readonly": false,
+      "ret": "string",
+      "payable": false
+    },
+    "claim": {
+      "params": [
+        [
+          "owner",
+          "string"
+        ],
+        [
+          "pool_id",
+          "string"
+        ],
+        [
+          "allocation_digest",
+          "string"
+        ]
+      ],
+      "kwparams": {},
+      "readonly": false,
+      "ret": "string",
+      "payable": false
+    },
+    "declare": {
+      "params": [
+        [
+          "owner",
+          "string"
+        ],
+        [
+          "pool_id",
+          "string"
+        ],
+        [
+          "statement",
+          "string"
+        ]
+      ],
+      "kwparams": {},
+      "readonly": false,
+      "ret": "string",
+      "payable": false
+    },
+    "get_pool": {
+      "params": [
+        [
+          "owner",
+          "string"
+        ],
+        [
+          "pool_id",
+          "string"
+        ]
+      ],
+      "kwparams": {},
+      "readonly": true,
+      "ret": "string"
+    },
+    "get_protocol": {
+      "params": [],
+      "kwparams": {},
+      "readonly": true,
+      "ret": "string"
+    },
+    "open_pool": {
+      "params": [
+        [
+          "pool_id",
+          "string"
+        ],
+        [
+          "budget",
+          "int"
+        ],
+        [
+          "unit",
+          "string"
+        ],
+        [
+          "members_json",
+          "string"
+        ]
+      ],
+      "kwparams": {},
+      "readonly": false,
+      "ret": "string",
+      "payable": false
+    }
+  }
+}
